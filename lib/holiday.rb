@@ -83,5 +83,5 @@ def all_holidays_with_bbq(holiday_hash)
       holidays_with_bbqs << holidays.keys
     end
   end
-  holidays_with_bbqs
+  holidays_with_bbqs.flatten
 end
