@@ -79,7 +79,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |season, holidays|
     #binding.pry
     if holidays.has_value?("BBQ")
-      holidays_with_bbqs << holiday.key("BBQ")
+      binding.pry
     end
   end
 end
